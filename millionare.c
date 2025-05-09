@@ -433,7 +433,7 @@ void displayMenu(int currentPos, int n, char *options[], char header[])
     // printf("%s\n\n", header);
 
 
-    printf("%sHi there%s, %s%s%s!\n", BLUE, RESET, GREEN, "dani", RESET);
+    printf("%sHi there%s, %s%s%s!\n", BLUE, RESET, GREEN, currentUser->name, RESET);
 
     printf("%sWelcome%s to %sWho Wants to Be a Millionaire?%s\n", YELLOW, RESET, BLUE, RESET);
 
